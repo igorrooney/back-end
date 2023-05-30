@@ -1,4 +1,4 @@
-import express, { Request, Response } from 'express'
+import express from 'express'
 import { productRouter } from './Routers/productsRouter'
 import { addressesRouter } from './Routers/addressesRouter'
 
@@ -14,4 +14,4 @@ app.use('/addresses', addressesRouter)
 
 app.listen(port, () => {
   console.log(`Example app listening on port ${port}`)
-}) 
+})
